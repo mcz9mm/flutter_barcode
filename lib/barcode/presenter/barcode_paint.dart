@@ -6,7 +6,8 @@ class BarcodePaint extends StatelessWidget {
   const BarcodePaint(this.barcode,
       {required this.size,
       this.padding = EdgeInsets.zero,
-      this.borderRadius = BorderRadius.zero});
+      this.borderRadius = BorderRadius.zero,
+      this.backgroundColor = Colors.white});
 
   final Barcode barcode;
 
